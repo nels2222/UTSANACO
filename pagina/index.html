@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>UTS Anaco</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	 <link href="CSS/estilosmenu.css" rel="stylesheet" type="text/css">
+	
+
+	<script type="text/javascript" src="JS/jquery-3.1.0.js"></script> 
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="favicon/ico.png" type="image/x-png">
+	
+	<script type="text/javascript"> <!-- codigo js/jquery-3 -->	
+		$(document).ready(function(){  <!-- se verifica que eel documento ha sido cargado -->
+			$("ul.menu li").mouseover(   <!-- se verifica si el mouse esta sobre el elemeto -->
+				function(){  <!-- se inicia uns funcion -->
+				$(this).css({"background-color":"#9933ff"});  <!-- Se CAmbia el color de fondo del elemento -->
+				}  <!-- Fin de la funcion -->
+			);  <!-- fin del evento del mouse sobre el elemento -->
+			$("ul.menu li").mouseout(  <!-- Igual al anterior pero cuando el mouse sale del elemento -->
+				function(){
+				$(this).css({"background-color":"#cccccc"});
+				}
+			);
+		});
+	</script>
+</head>
+<body>
+	<div class="Maqueta">
+
+		
+	<header>
+		
+
+	
+<div class="logo">
+	<img src="./logo/logo.png">
+</div>
+
+		
+
+	</header>
+
+
+	<main>
+<script>
+            var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+           var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+            var f=new Date();
+       document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                                </script>
+
+		
+			
+			
+		</main>
+
+
+		<nav class="Menu">
+
+			  <input type="checkbox" id="ckbox">
+            <label for="ckbox" class="drawer">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+		<ul class="horizontal">
+			<li><a href="Index.html">Inicio</a></li>
+			<li><a href="nosotros/Nosotros.html">Nosotros</a></li>
+			<li><a href="#">Oferta Academica</a>
+
+				<ul class="Submenu">
+				<li><a href="Carreras/Carreras.html">Carreras</a></li>
+				
+			</ul>
+
+
+
+			</li>
+
+			<li><a href="Procesos/Procesos.html">Procesos Institucionales</a></li>
+			<li><a href="consulta/Consulta.html">Consulta tus Notas</a></li>
+			<li><a href="Contacto/Contacto.html">Contacto</a></li>
+			
+
+		</ul>
+		
+	</nav>
+<section>
+
+	<div class="slider">
+				<ul>
+					<li><img src="./imagenes/slide1.jpg" alt=""></li>
+					<li><img src="./imagenes/slide2.jpg" alt=""></li>
+					<li><img src="./imagenes/slide3.jpg" alt=""></li>
+					<li><img src="./imagenes/slide4.jpg" alt=""></li>
+					<li><img src="./imagenes/slide5.jpg" alt=""></li>
+					<li><img src="./imagenes/slide6.jpg" alt=""></li>
+					<li><img src="./imagenes/slide7.jpg" alt=""></li>
+				</ul>
+			 </div>
+	
+</section>
+
+
+
+	<aside>
+	<div class="imagenes">
+	<div class="box">
+				<img src="imagenes/carreras.jpg">
+				
+				<div class="capa"> <a href="Carreras/carreras.html"><h2>Carreras</h2></a></div>
+				</div>	
+
+				<div class="box">
+				 
+				<img src="imagenes/inscribete.jpg">
+				<div class="capa"> <a href="Inscribete/inscribete.html"> <h2>Inscribete</h2></a></div>
+				</div>
+
+				<div class="box">
+				<a  href=""><img src="imagenes/saia.jpg"></a> 
+				
+				<div class="capa"> <a href="Saia/saia.html"><h2>Saia</h2></a></div>
+				</div>
+
+				<div class="box">
+				<a  href=""><img src="imagenes/notas.jpg"></a> 
+				
+				<div class="capa"> <a href="Saia/saia.html"><h2>Consulta tus notas</h2></a></div>
+				</div>
+
+				<div class="box">
+				<a  href=""><img src="imagenes/Contacto.png"></a> 
+				
+				<div class="capa"> <a href="Contacto/Contacto.html"><h2>Contacto</h2></a></div>
+				</div>
+
+
+
+				
+</div>
+		
+		
+	</aside>
+
+	<footer>
+		<div class="footer-contenido">	
+			<h3>Uts Anaco</h3>
+			<p>	La educación es nuestro pasaporte para el futuro, porque el mañana pertenece a la persona  que se prepara para el hoy</p>
+
+			<ul class="social">
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>	
+
+			</ul>
+
+		</div>
+		<div class="Derechos">
+			<p>copyright &copy; 2021 designed by <span>Nels</span></p>
+
+			</div>
+		
+
+	</footer>
+	</div>
+	
+</body>
+</html>
